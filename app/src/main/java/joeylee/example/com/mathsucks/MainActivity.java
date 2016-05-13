@@ -15,7 +15,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     //I want to change this part of the code, is it ok!
-    //You don't really have to do that
     TextView totalTextView;
     EditText percentageTxt;
     EditText numberTxt;

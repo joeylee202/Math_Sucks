@@ -31,8 +31,9 @@ public class MainActivity extends AppCompatActivity {
         percentageTxt = (EditText) findViewById(R.id.percentageTxt);
         numberTxt = (EditText) findViewById(R.id.numberTxt);
 
-        Button calcBtn = (Button) findViewById(R.id.calcBtn);
-        calcBtn.setOnClickListener(new View.OnClickListener(){
+        Button calculateBtn = (Button) findViewById(R.id.calcBtn);
+
+        calculateBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 float percentage = Float.parseFloat(percentageTxt.getText().toString());
